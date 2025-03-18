@@ -40,7 +40,7 @@ h2 {
     "mail content"
     "contact contact"
     "footer footer";
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   /*
   padding: 5px;
   gap: 5px;
@@ -146,10 +146,11 @@ a {
 
 /* posts */
 .post {
-  width: 25%;
-  background-color: #b7bbec;
+  width: 300px;
+  background-color: #b7ece2;
   padding: 10px;
-  height: 50vh;
+  margin: 10px 10px;
+  height: auto;
   /*padding: 50px;
   margin: 20px; */
 }
